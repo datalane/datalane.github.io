@@ -14,7 +14,7 @@ headaer:
   <h2 id="{{ tag | slugify}}" class="archive__subtitle">{{ tag }}</h2>
   
   {% for post in posts %}
-   {% include archive-single.html %}
+   {% include Business-Intelligence.html %}
   {% endfor %}
   
 {% endfor %}
