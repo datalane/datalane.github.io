@@ -9,8 +9,8 @@ mathjax: "true"
 
 Download: [Link](https://github.com/taojiangdt/Excel)
 
-<font size="4">Excel Report:</font> 
-<font style="background:LavenderBlush" size="3"><b>Titles of quarter and year and relevant data will change automatically with new data coming into the next quarter.</b></font> 
+<font size="5">Excel Report:</font> 
+<font style="background:LavenderBlush" size="4"><b>Titles of quarter and year and relevant data will change automatically with new data coming into the next quarter.</b></font> 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Excel/dynamicExcelReport.jpg" alt="">
 
 {% comment %}
