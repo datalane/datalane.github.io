@@ -111,8 +111,8 @@ author:
   name             : "Tao Jiang"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **BI** Dev111."
-  location         : "Somewhere"
-  email            :
+  location         : "Surprise, AZ"
+  email            : "taojiang20@hotmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
