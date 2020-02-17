@@ -12,12 +12,12 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 #remote_theme            : "mmistakes/minimal-mistakes"
-remote_theme:            "mmistakes/minimal-mistakes@4.18.1"
+remote_theme             :"mmistakes/minimal-mistakes@4.18.1"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Tao Jiang"
+title                    : "Tao Jiang Teach You BI DYI"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Tao Jiang"
@@ -109,10 +109,10 @@ analytics:
 # Site Author
 author:
   name             : "Tao Jiang"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/tj.jpg"
   bio              : "Business Intelligence Developer"
   location         : "Surprise, AZ"
-  email            : "taojiang20@hotmail.com"
+  email            : #"taojiang20@hotmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
