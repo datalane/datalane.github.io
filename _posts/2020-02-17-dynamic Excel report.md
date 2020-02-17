@@ -8,5 +8,10 @@ mathjax: "true"
 ---
 ## Dynamic Excel Report
 Author: **Tao Jiang**
+
 Publish Date: *02/17/2020*
+
 Download this report: [Link](https://github.com/taojiangdt)
+
+Excel Report:
+<img src="{{ site.url }}{{ site.baseurl }}/images/Excel/dynamicExcelReport.jpg" alt="">
