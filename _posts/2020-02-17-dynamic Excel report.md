@@ -4,6 +4,7 @@ date: 2020-02-17
 tags: [Excel, data, BI]
 header:
   image: "/images/Excel/dynamicExcelReport.jpg"
+mathjax: "true" 
 ---
 ## Dynamic Excel Report
 Author: **Tao Jiang**
