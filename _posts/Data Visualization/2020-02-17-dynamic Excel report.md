@@ -4,6 +4,7 @@ date: 2020-02-17
 tags: [Excel, data, BI]
 excerpt: "Author: Tao Jiang Publish Date: 02/17/2020"
 mathjax: "true" 
+category: Data-Visualization
 ---
 ## Dynamic Excel Report
 <br>Download Report: [Link](https://github.com/taojiangdt/Excel)
@@ -19,8 +20,15 @@ mathjax: "true"
 
 
 
-
 {% comment %}
+{% if jekyll.environment == "production" %}
+   {% include discourse.html %}
+{% endif %}
+
+
+
+{{page.tags | capitalize | join: ', '}}
+{% include Business-Intelligence.md %}
 header:
   image: "/images/Excel/dynamicExcelReport.jpg"
 {% endcomment %}

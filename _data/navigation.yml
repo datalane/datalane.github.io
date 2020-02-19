@@ -1,12 +1,12 @@
 # main links
+
 main:
+
+  - title: "Data Storage"
+    url: /Data-Storage/
+  - title: "Data Wrangling"
+    url: /Data-Wrangling/
+  - title: "Data Visualization"
+    url: /Data-Visualization/
   - title: "About"
     url: /about/
-  - title: "Business Intelligence"
-    url: /Business-Intelligence/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
