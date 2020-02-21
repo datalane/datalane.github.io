@@ -44,7 +44,6 @@
 }
 
 .site-title {
-
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,9 +51,6 @@
   align-self: center;
   font-weight: bold;
   z-index: 20;
-  font-size: 1.06em;  					       /* 'Business Intelligence', it is in _navigation- jt*/
-  /*color: #8000FF;*/  					        /* not for color of "Business Intelligence" - jt*/
-    
 }
 
 .site-subtitle {
@@ -86,19 +82,10 @@
 }
 
 .masthead__menu-item {
-
   display: block;
-  color: #8000FF; 								/*measthead doesn't work*/
   list-style-type: none;
   white-space: nowrap;
-  font-size: 1.04em;  							/*measthead text  -jt*/
-  font-weight: bold; 							/*measthead text  -jt*/
-  /*background: $gray;*/  						/*jt*/
-  
-   &:hover {  									/*measthead text-jt add hover*/
-        background: #E6E6E6;
-      }
-  
+
   &--lg {
     padding-right: 2em;
     font-weight: 700;

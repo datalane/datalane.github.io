@@ -62,9 +62,8 @@ body {
       float: left;
       margin-left: 0;
       margin-right: 0;
-      width: 140%; 						/*post content weight  --jt*/
+      width: 100%;
       clear: both;
-      
     }
   }
 }
@@ -72,8 +71,7 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
-  font-size: 1.3em; 					/*post title text after click into post  --jt*/
-  
+
   & + .page__meta {
     margin-top: -0.5em;
   }
@@ -110,7 +108,7 @@ body {
   p,
   li,
   dl {
-    font-size: 0.95em;					/*post content text  --jt*/
+    font-size: 1em;
   }
 
   /* paragraph indents */

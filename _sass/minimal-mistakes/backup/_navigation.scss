@@ -182,8 +182,7 @@
   a {
     display: block;
     margin: 0 1rem;
-    color: #424242; 					/* Business Intelligence - jt*/
-		  	
+    color: $masthead-link-color;
     text-decoration: none;
 
     &:hover {
@@ -197,7 +196,6 @@
 
     &.site-title {
       margin-left: 0;
-
     }
   }
 
@@ -223,37 +221,34 @@
     flex: 1;
     overflow: hidden;
 
-
     li {
       -webkit-box-flex: 0;
       -ms-flex: none;
       flex: none;
-
     }
 
     a {
       position: relative;
-	  color: #6E6E6E; 					 /*measthead text color - jt*/
+
       &:before {
         content: "";
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 1px;   					/* measthead underline -jt*/
-  		background: $gray;
+        height: 4px;
+        background: $primary-color;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
         -webkit-transform: scaleX(0) translate3d(0, 0, 0);
         transform: scaleX(0) translate3d(0, 0, 0); // hide
-
       }
 
-      &:hover:before { 
+      &:hover:before {
         -webkit-transform: scaleX(1);
         -ms-transform: scaleX(1);
         transform: scaleX(1); // reveal
-      } 
+      }
     }
   }
 
@@ -279,7 +274,7 @@
       padding: 10px 20px;
       font-size: $type-size-5;
 
-     &:hover { 
+      &:hover {
         color: $masthead-link-color-hover;
         background: $navicon-link-color-hover;
       }

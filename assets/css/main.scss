@@ -6,3 +6,12 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+body {   					/*main page zoom  -jt*/
+
+  font-size: 18px;
+
+}
+
+
+
