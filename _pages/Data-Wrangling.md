@@ -22,7 +22,7 @@ headeraaa:
  {{ post.date | date_to_string }}
  </span>&nbsp;
  
- <a class="s"href="{{ post.url }}">{{ post.title }}
+ <a class="s" href="{{ post.url }}">{{ post.title }}
  </a>
  </li>
 {% endfor %}
