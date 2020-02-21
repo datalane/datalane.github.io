@@ -6,10 +6,30 @@ author_profile: true
 headeraaa:
   image: "/images/AZ_2.jpg"
 ---
+<style>
+
+ .s{
+            font-size: 17px;
+            color: #424242;
+            <!--font-weight: bold;-->
+        }
+		
+</style>
+
 
 {% for post in site.categories.Data-Storage %}
- <li><span>{{ post.date | date_to_string }}</span>&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
+ <li>
+ <span class="s">
+ {{ post.date | date_to_string }}
+ </span>&nbsp;
+ 
+ <a class="s" href="{{ post.url }}">{{ post.title }}
+ </a>
+ </li>
 {% endfor %}
+
+
+
 
 
 {% comment %}

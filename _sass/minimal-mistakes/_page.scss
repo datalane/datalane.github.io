@@ -200,6 +200,7 @@ body {
     .btn {
       color: #fff;
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
+
     }
 
     .page__lead {
@@ -207,6 +208,7 @@ body {
     }
 
     .page__title {
+	
       font-size: $type-size-2;
 
       @include breakpoint($small) {
