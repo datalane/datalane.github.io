@@ -5,6 +5,7 @@ tags: [Excel, data, BI]
 excerpt: "Author: Tao Jiang Publish Date: 02/17/2020"
 mathjax: "true" 
 category: Data-Visualization
+comments: true
 ---
 <br>Download Report: [Link](https://github.com/taojiangdt/Excel)
 <br>Report Purpose:<font style="background:#E6E6E6">
@@ -19,7 +20,9 @@ category: Data-Visualization
 <!--<img src="{{ site.url }}{{ site.baseurl }}/images/Excel/dynamicExcelReport.jpg" alt="">-->
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=8B290B34D8C72783%211919&authkey=%21AI0EgLL6Qi5p6N4&em=2&AllowTyping=True&ActiveCell='Report'!X6&wdHideGridlines=True&wdInConfigurator=True"></iframe>
 
-
+{% if jekyll.environment == "production" %}
+   {% include disqus.html %}
+{% endif %}
 
 {% comment %}
 {% if jekyll.environment == "production" %}
