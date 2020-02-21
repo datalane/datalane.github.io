@@ -1,7 +1,7 @@
 ---
-title: "Post: Data Storage"
+title: "Data Storage"
 date: 2020-02-18
 categories: Data-Storage
 ---
 
-This post lives in the future and is dated {{ page.date | date: "%c" }}. When building Jekyll with the `--future` flag it should appear.
+Data Storage means enterprise save their data in database, MS SQLServer, Oracel, Access or other database. The worker needs to master SQL language.
