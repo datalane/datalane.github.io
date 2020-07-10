@@ -10,7 +10,7 @@ category: Data-Visualization
 <!--<img src="{{ site.url }}{{ site.baseurl }}/images/Excel/dynamicExcelReport.jpg" alt="">-->
 <!--<iframe width="900" height="500" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=8B290B34D8C72783%211919&authkey=%21AI0EgLL6Qi5p6N4&em=2&AllowTyping=True&ActiveCell='Report'!X6&wdHideGridlines=True&wdInConfigurator=True"></iframe>-->
 
-<iframe width="920" height="500" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=8B290B34D8C72783%211997&authkey=%21AMVB1SR8pnWsWIo&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+<iframe width="950" height="510" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=8B290B34D8C72783%211997&authkey=%21AMVB1SR8pnWsWIo&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
 
 
 <!--
