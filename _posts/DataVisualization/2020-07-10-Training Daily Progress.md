@@ -13,17 +13,6 @@ category: Data-Visualization
 <iframe width="900" height="201" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=8B290B34D8C72783%211995&authkey=%21AAjYfKUsbAYTnpc&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
 
 
-{% comment %}
-{% if jekyll.environment == "production" %}
-   {% include discourse.html %}
-{% endif %}
-
-
-{{page.tags | capitalize | join: ', '}}
-{% include Business-Intelligence.md %}
-header:
-  image: "/images/Excel/dynamicExcelReport.jpg"
-{% endcomment %}
 <!--
 header:
   image: "/images/Excel/dynamicExcelReport.jpg"-->
